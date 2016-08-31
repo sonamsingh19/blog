@@ -22,6 +22,7 @@ https://github.com/fchollet/keras/blob/master/examples/mnist_irnn.py
 
 Just use :
 ```python 
+
 import theano.tensor as T
 def elu(x,alpha=1.0):
 
