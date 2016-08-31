@@ -1,13 +1,13 @@
 title:            Stochastic Ramblings
-description:      A responsive Jekyll theme with modern tendencies from designer Michael Rose.
-disqus_shortname: hpstrtheme
+description:      
+disqus_shortname: 
 reading_time:     true
 words_per_minute: 200
-url:              https://mmistakes.github.io/hpstr-jekyll-theme
+url:              https://sonamsingh19.github.io/blog
 
 # Owner/author information
 owner:
-  name:           Michael Rose
+  name:           Sonam
   avatar:         avatar.jpg
   bio:            "Just another boring, tattooed, time traveling designer hailing from Buffalo New York."
   email:          
