@@ -26,8 +26,7 @@ import theano.tensor as T
 def elu(x,alpha=1.0):
 
         return T.nnet.elu(x, alpha)
-
-
+        
 SimpleRNN(output_dim=hidden_units,
 
                     init=lambda shape, name: keras.initializations.glorot_normal(shape, name=name),
