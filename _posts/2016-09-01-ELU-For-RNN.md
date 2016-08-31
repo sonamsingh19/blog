@@ -36,3 +36,8 @@ SimpleRNN(output_dim=hidden_units,
                     input_shape=X_train.shape[1:])
 ```
 Keras has ELU too in advanced activations as a Layer.
+ 
+```python
+s = "Python syntax highlighting"
+print s
+```
