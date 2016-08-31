@@ -18,24 +18,9 @@ The best accuracy I could get was 97.3 but couldn't reproduce it. Growth of ELU 
 
 Code for ELU can be easily experimented with beautiful lib keras:
 
-https://github.com/fchollet/keras/blob/master/examples/mnist_irnn.py
-
+[https://github.com/fchollet/keras/blob/master/examples/mnist_irnn.py](keras -mnist-IRNN)
 Just use :
-```python 
 
-import theano.tensor as T
-def elu(x,alpha=1.0):
-
-        return T.nnet.elu(x, alpha)
-        
-SimpleRNN(output_dim=hidden_units,
-
-                    init=lambda shape, name: keras.initializations.glorot_normal(shape, name=name),
-                    inner_init=lambda shape,name :keras.initializations.identity(shape,name),
-                    activation = elu,                    
-                    input_shape=X_train.shape[1:])
-```
-Keras has ELU too in advanced activations as a Layer.
  
 ```python
 import theano.tensor as T
@@ -50,3 +35,5 @@ SimpleRNN(output_dim=hidden_units,
                     activation = elu,                    
                     input_shape=X_train.shape[1:])
 ```
+
+Keras has ELU too in advanced activations as a Layer.
