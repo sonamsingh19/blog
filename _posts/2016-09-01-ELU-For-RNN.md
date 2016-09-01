@@ -1,7 +1,6 @@
 ---
 published: true
 ---
-
 ---
 layout: post
 title: ELU for RNN
