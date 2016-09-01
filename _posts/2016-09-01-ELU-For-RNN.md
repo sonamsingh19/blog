@@ -1,7 +1,5 @@
 ---
 published: true
----
----
 layout: post
 title: ELU for RNN
 description: "Exponential Linear Units Experiments with RNN"
