@@ -9,7 +9,7 @@ url:              https://sonamsingh19.github.io/blog
 owner:
   name:           Sonam
   avatar:         milky-way.jpg
-  bio:            kj
+  bio:            
   email:          
   # Social networking links used in footer. Update and remove as you like.
   twitter:        sonamkgp
@@ -33,7 +33,7 @@ google_verify:
 bing_verify:         
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    India/Kolkata
 future:      true
 highlighter: rouge
 markdown:    kramdown
