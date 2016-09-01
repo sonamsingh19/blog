@@ -18,7 +18,7 @@ The best accuracy I could get was 97.3 but couldn't reproduce it. Growth of ELU 
 
 Code for ELU can be easily experimented with beautiful lib keras:
 
-[keras MNIST IRNN code]([https://github.com/fchollet/keras/blob/master/examples/mnist_irnn.py])(keras -mnist-IRNN)
+[keras MNIST IRNN code]([https://github.com/fchollet/keras/blob/master/examples/mnist_irnn.py])
 Just use :
 
  
