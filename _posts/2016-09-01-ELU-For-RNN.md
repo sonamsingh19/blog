@@ -5,10 +5,11 @@ title: ELU for RNN
 description: "Exponential Linear Unit Experiments with RNN"
 tags: [deep learning,RNN, ELU, Theano]
 published: true
+
 comments: true
 share: true
 ---
-## ML Low hanging Fruit: If you are using RNN for long dependencies: Try PELU##
+## ML Low hanging Fruit: If you are using RNN for long dependencies: Try ELU##
 
 Recurrent Neural Networks (RNN) have difficulty to learn long depencies due to vanishing and exploding gradients. Quoc et al ([paper](https://arxiv.org/pdf/1504.00941.pdf)) suggested to use identity matrix for hidden to hidden matrix initialization for using ReLU units in RNN (=Identity RNN).
 
