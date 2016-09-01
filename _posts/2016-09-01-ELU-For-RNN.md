@@ -19,7 +19,7 @@ Experiments suggest that recently introduced ELU (Exponential Linear Unit) can o
 
 The graph below shows accuracy vs epochs for Sequential MNIST Task i.e feeding one pixel at a time (784 time steps in RNN terminology for 28*28 image).
 
-ELU reaches **96+** accuracy easily vs Relu struggling to come close.
+ELU reaches **96+** accuracy easily vs ReLU struggling to come close.
 
 ![acc_elu_vs_relu.png](/images/acc_elu_vs_relu.png)
 
