@@ -8,6 +8,10 @@ published: true
 
 comments: true
 share: true
+image:
+  feature: 12.jpg
+  <!-- credit: dargadgetz
+  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/ -->
 ---
 ## ML Low hanging Fruit: If you are using RNN for long dependencies: Try ELU##
 
