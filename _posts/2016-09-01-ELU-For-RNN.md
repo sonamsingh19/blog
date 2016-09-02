@@ -4,7 +4,7 @@ layout: post
 title: ELU for RNN
 description: "Exponential Linear Unit Experiments with RNN"
 tags: [deep learning,RNN, ELU, Theano]
-published: true
+published: false
 
 comments: true
 share: true
