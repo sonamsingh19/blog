@@ -29,7 +29,7 @@ ELU reaches **96+** accuracy easily vs ReLU struggling to come close.
 
 ![acc_elu_vs_relu.png]({{site.url}}/images/acc_elu_vs_relu.png)
 
-The best accuracy I could get was 97.3 but couldn't reproduce it. Growth of ELU accuracy may vary (reaching 96+) but  within 50 epochs you should see it close by without much learning rate schedule (lower rates when acc. doesn't change much.
+The best accuracy I could get was 97.3 but couldn't reproduce it. Growth of ELU accuracy may vary (reaching 96+) but  within 50 epochs you should see it close by without much learning rate schedule (lower rates when acc. doesn't change much).
 
 Code for ELU can be easily experimented with beautiful lib keras:
 
