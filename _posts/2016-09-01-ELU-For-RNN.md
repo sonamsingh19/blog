@@ -7,7 +7,7 @@ tags:
   - RNN
   - ELU
   - Theano
-published: false
+published: true
 comments: true
 share: true
 image:
