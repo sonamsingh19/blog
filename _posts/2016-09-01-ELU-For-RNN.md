@@ -1,17 +1,21 @@
 ---
-
 layout: post
 title: ELU for RNN
-description: "Exponential Linear Unit Experiments with RNN"
-tags: [deep learning,RNN, ELU, Theano]
+description: Exponential Linear Unit Experiments with RNN
+tags:
+  - deep learning
+  - RNN
+  - ELU
+  - Theano
 published: false
-
 comments: true
 share: true
 image:
   feature: 12.jpg
   <!-- credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/ -->
+  creditlink: >-
+    http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+    -->
 ---
 ## ML Low hanging Fruit: If you are using RNN for long dependencies: Try ELU##
 
@@ -48,3 +52,5 @@ SimpleRNN(output_dim=hidden_units,
 ```
 
 Keras has ELU too in advanced activations as a Layer.
+
+ANybody with PTB acces can replicate PTB experiment to confirm my findings and check against this (path Normalized SGD with IRNN? https://arxiv.org/abs/1605.07154?. I want to see if we reach nearby LSTM with ELU.  Please comment or email.
