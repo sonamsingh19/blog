@@ -19,7 +19,7 @@ image:
 ---
 ## ML Low hanging Fruit: If you are using RNN for long dependencies: Try ELU##
 
-Recurrent Neural Networks (RNN) have difficulty to learn long depencies due to vanishing and exploding gradients. Quoc et al ([paper](https://arxiv.org/pdf/1504.00941.pdf)) suggested to use identity matrix for hidden to hidden matrix initialization for using ReLU units in RNN (=Identity RNN).
+Recurrent Neural Networks (RNN) have difficulty to learn long depencies due to vanishing and exploding gradients. Quoc et al ([paper](https://arxiv.org/pdf/1504.00941.pdf)) suggested to use identity matrix for hidden to hidden matrix initialization for using ReLU units in RNN (=Identity RNN or IRNN).
 
 Experiments suggest that recently introduced ELU (Exponential Linear Unit) can outperform ReLU and converge quite faster than ReLU.
 
