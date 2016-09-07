@@ -51,6 +51,5 @@ SimpleRNN(output_dim=hidden_units,
                     input_shape=X_train.shape[1:])
 ```
 
-Keras has ELU too in advanced activations as a Layer.
 
 Anybody with PTB (Penn Tree Bank Corpus) acces can replicate PTB experiment to confirm my findings and check against this : path Normalized SGD with IRNN [paper](https://arxiv.org/abs/1605.07154). I want to see if we reach nearby LSTM with ELU.  Please comment or email.
